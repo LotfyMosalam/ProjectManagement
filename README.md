@@ -117,17 +117,17 @@ src/
 
 ### 🛡️ Authorization
 
-| Endpoint              | Role        | Rule           |
-| --------------------- | ----------- | -------------- |
-| GET /projects         | Admin, User | Admin sees all |
-| GET /projects/{id}    | Admin, User | User or Admin  |
-| POST /projects        | User        | Any user       |
-| PUT /projects/{id}    | User        | User or Admin  |
-| DELETE /projects/{id} | Admin       | Admin only     |
-| GET tasks             | Admin, User | User or Admin  |
-| POST task             | User        | User only      |
-| PATCH status          | User        | User only      |
-| DELETE task           | Admin, User | User or Admin  |
+| Module   | Operation        | Access Control                |
+|----------|------------------|-------------------------------|
+| Projects | Get All          | Admin: all / User: own        |
+| Projects | Get By Id        | Owner or Admin                |
+| Projects | Create           | Any authenticated user        |
+| Projects | Update           | Owner or Admin                |
+| Projects | Delete           | Admin only                    |
+| Tasks    | List             | Owner or Admin                |
+| Tasks    | Create           | Owner only                    |
+| Tasks    | Update Status    | Owner only                    |
+| Tasks    | Delete           | Owner or Admin                |
 
 ---
 
