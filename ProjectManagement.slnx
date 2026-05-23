@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ProjectManagement.API/ProjectManagement.API.csproj" />
+    <Project Path="src/ProjectManagement.Application/ProjectManagement.Application.csproj" />
+    <Project Path="src/ProjectManagement.Domain/ProjectManagement.Domain.csproj" />
+    <Project Path="src/ProjectManagement.Infrastructure/ProjectManagement.Infrastructure.csproj" />
+    <Project Path="src/ProjectManagement.Shared/ProjectManagement.Shared.csproj" />
+  </Folder>
+</Solution>

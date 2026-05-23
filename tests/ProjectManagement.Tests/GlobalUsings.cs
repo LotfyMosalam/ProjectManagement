@@ -1,0 +1,12 @@
+global using Xunit;
+global using Moq;
+global using FluentAssertions;
+global using System.Threading;
+global using Microsoft.Extensions.Logging;
+global using ProjectManagement.Application.Exceptions;
+global using ProjectManagement.Application.Interfaces;
+global using ProjectManagement.Domain.Entities;
+global using ProjectManagement.Domain.Enums;
+global using ProjectManagement.Domain.Interfaces;
+global using ProjectManagement.Shared.Responses;
+global using TaskStatus = ProjectManagement.Domain.Enums.TaskStatus;
