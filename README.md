@@ -120,14 +120,14 @@ src/
 | Endpoint              | Role        | Rule           |
 | --------------------- | ----------- | -------------- |
 | GET /projects         | Admin, User | Admin sees all |
-| GET /projects/{id}    | Admin, User | Owner or Admin |
+| GET /projects/{id}    | Admin, User | User or Admin  |
 | POST /projects        | User        | Any user       |
-| PUT /projects/{id}    | User        | Owner or Admin |
+| PUT /projects/{id}    | User        | User or Admin  |
 | DELETE /projects/{id} | Admin       | Admin only     |
-| GET tasks             | Admin, User | Owner or Admin |
-| POST task             | User        | Owner only     |
-| PATCH status          | User        | Owner only     |
-| DELETE task           | Admin, User | Owner or Admin |
+| GET tasks             | Admin, User | User or Admin  |
+| POST task             | User        | User only      |
+| PATCH status          | User        | User only      |
+| DELETE task           | Admin, User | User or Admin  |
 
 ---
 
@@ -382,4 +382,5 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Lotfy Abdalla Mosalam**
+
 Full Stack .NET & Angular Developer
