@@ -382,5 +382,4 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Lotfy Abdalla Mosalam**
-
 Full Stack .NET & Angular Developer
